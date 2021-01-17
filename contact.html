@@ -4,6 +4,7 @@
         <meta charset="UTF-8">
         <title>Zach Z Apps</title>
         <link rel="stylesheet" href="/Users/zachzak/Web Dev/myCSS.css" type="text/css">
+        <link rel="stylesheet" href="contact.css" type="text/css">
     </head>
     <body>
     <header>
@@ -21,10 +22,26 @@
         </div>
     </header>
     <div class="contactForm">
-        <form>
-            <label>Name</label>
-            <input type="text" placeholder="Enter your name here">
-            <input type="submit">
+        <form action="">
+            <div class="form-group">
+            <label for="name">Name</label>
+            <input id="name" type="text" placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+            <label for="email">email</label>
+            <input id="email" type="email" placeholder="Enter your email" required>
+            </div>
+            <div class="form-group">
+                <p>Which app is this concerning?</p>
+                <select id="dropdown" name="app-choice" required>
+                    <option disabled selected value>Please select an app</option>
+                    <option value="countdowner">Count-Downer</option>
+                    <option value="doserx">DoserR-X</option>
+                    <option value="flashcards">Your Pro Flash Cards</option>
+                    <option value="letter-practice">Letter Practice</option>
+                </select>
+            </div>
+            <button type="submit">Submit</button>
         </form>
     </div>
     <footer>
