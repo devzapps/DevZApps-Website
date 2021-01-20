@@ -1,3 +1,8 @@
+:root {
+    --primary-color: #272343;
+    --secondary-color: #bae8e8;
+    --tertiary-color: #e3f6f5;
+}
 
 .form-group {
     margin: 0 auto 1.25rem auto;
@@ -24,7 +29,7 @@ button {
     font-size: large;
     line-height: 40px;
     color: white;
-    background-color: teal;
+    background-color: var(--primary-color);
     border-radius: 8px;
     border-style: none;
 }

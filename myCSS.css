@@ -1,11 +1,31 @@
+:root {
+    --primary-color: #272343;
+    --secondary-color: #bae8e8;
+    --tertiary-color: #e3f6f5;
+}
+
 h1 {
-    color: red;
+    color: var(--primary-color);
+}
+
+h2 {
+    color: var(--secondary-color);
+}
+
+a {
+    color: var(--primary-color);
+    font-size: large;
+    text-decoration: none;
 }
 
 .site_header {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: medium;
-    color: royalblue;
+    background-color: var(--secondary-color);
+}
+
+.main-header {
+    margin-left: 20px;
 }
 
 ul {
@@ -13,7 +33,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: yellow;
+    background-color: var(--tertiary-color);
 }
 
 li {
@@ -23,9 +43,9 @@ li {
 }
 
 .main {
-    display: block;
-    margin: 10%;
-    max-width: 80%;
+    margin-left: 20px;
+    margin-right: auto;
+    line-height:1.75em
 }
 
 .mainImageDiv {
@@ -40,8 +60,8 @@ li {
 }
 
 footer {
-    background-color: gray;
-    color: white;
+    text-align: center;
+    color: #8f8f8f;
     margin-top: 10px;
     padding: 10px;
 }
