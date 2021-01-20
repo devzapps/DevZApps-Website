@@ -18,6 +18,11 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    color: var(--secondary-color);
+    text-decoration: underline;
+}
+
 .site_header {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: medium;
