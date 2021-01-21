@@ -6,10 +6,14 @@
 
 h1 {
     color: var(--primary-color);
+    position: relative;
+    top: 0.75em;
 }
 
 h2 {
     color: var(--secondary-color);
+    position: relative;
+    top: 1em;
 }
 
 a {
@@ -59,9 +63,9 @@ li {
 
 .mainImage {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
     max-width: 90%;
+    height: auto;
 }
 
 footer {
@@ -69,4 +73,22 @@ footer {
     color: #8f8f8f;
     margin-top: 10px;
     padding: 10px;
+}
+
+#project-list {
+    text-align: center;
+}
+
+
+.project {
+    display: grid;
+    grid-template-columns: 50% 30%;
+    grid-template-rows: auto auto;
+    margin: 5%;
+}
+
+.project-img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
 }
