@@ -1,23 +1,43 @@
-:root {
-    --primary-color: #272343;
-    --secondary-color: #bae8e8;
-    --tertiary-color: #e3f6f5;
+#contact-form {
+    background-color: var(--secondary-color);
+    max-width: 70%;
+    margin: 10px auto 10px auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.23), 0 6px 6px rgba(0,0,0,0.28);
 }
 
 .form-group {
+    text-align: left;   
     margin: 0 auto 1.25rem auto;
-  padding: 0.25rem;
+    padding: 0.25rem;
 }
 
-label {
-    display: flex;
-    align-items: center;
-    margin-bottom: 0.5rem;
+label, p {
+    font-size: larger;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-form {
-    display: grid;
-    padding: 10px;
+input, select, textarea {
+    font-family: inherit;
+    font-size: large;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+textarea {
+    min-height: 150px;
+    min-width: 300px;
+}
+
+::placeholder {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: larger;
 }
 
 .button-group {
@@ -32,9 +52,4 @@ button {
     background-color: var(--primary-color);
     border-radius: 8px;
     border-style: none;
-}
-
-textarea {
-    min-height: 150px;
-    min-width: 300px;
 }

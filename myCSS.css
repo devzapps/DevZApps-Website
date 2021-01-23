@@ -37,11 +37,17 @@ a:hover {
     background-color: var(--secondary-color);
 }
 
+.first-header {
+    text-align: center;
+}
+
 .main-header {
     margin-left: 20px;
 }
 
 ul {
+    display: flex;
+    justify-content: space-evenly;
     list-style-type: none;
     margin: 0;
     padding: 0;
