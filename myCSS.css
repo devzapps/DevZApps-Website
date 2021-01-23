@@ -76,7 +76,8 @@ footer {
 }
 
 #project-list {
-    text-align: center;
+    display: flexbox;
+    align-content: space-around;
 }
 
 
@@ -84,12 +85,17 @@ footer {
     display: grid;
     grid-template-columns: 50% 30%;
     grid-template-rows: auto auto;
+    padding-bottom: 5%;
     margin: 5%;
+    background-color: var(--tertiary-color);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.23), 0 6px 6px rgba(0,0,0,0.28);
 }
 
 .project-img {
-    height: 200px;
-    width: 200px;
+    display: block;
+    margin: auto;
+    height: auto;
+    width: 70%;
     border-radius: 50%;
     box-shadow: 0 10px 20px rgba(0,0,0,0.23), 0 6px 6px rgba(0,0,0,0.28);
 }
