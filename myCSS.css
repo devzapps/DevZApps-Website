@@ -8,13 +8,13 @@
 h1 {
     color: var(--tertiary-color);
     position: relative;
-    top: 0.75em;
+    top: .5em;
 }
 
 h2 {
     color: var(--secondary-color);
     position: relative;
-    top: 1em;
+    top: .75em;
 }
 
 h3 {
@@ -29,9 +29,9 @@ a {
     padding: 20px;
 }
 
-ul :hover {
+ul :hover, ul :active {
     background-color: var(--secondary-color);
-    color: #fff;
+    color: #fff; 
 }
 
 .nav-list {
