@@ -29,23 +29,9 @@ a {
     padding: 20px;
 }
 
-.nav-a :hover {
+ul :hover {
     background-color: var(--secondary-color);
     color: #fff;
-}
-
-.site_header {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: medium;
-    background-color: var(--primary-color);
-}
-
-.first-header {
-    text-align: center; 
-}
-
-.main-header {
-    margin-left: 20px;
 }
 
 .nav-list {
@@ -63,6 +49,19 @@ a {
     padding: 12px;
 }
 
+.site_header {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: medium;
+    background-color: var(--primary-color);
+}
+
+.first-header {
+    text-align: center; 
+}
+
+.main-header {
+    margin-left: 20px;
+}
 
 .main {
     margin-left: 20px;
