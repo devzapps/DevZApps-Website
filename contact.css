@@ -1,5 +1,5 @@
 #contact-form {
-    background-color: var(--secondary-color);
+    background-color: var(--primary-color);
     max-width: 70%;
     margin: 10px auto 10px auto;
     padding-top: 10px;
@@ -7,6 +7,7 @@
     display: flex;
     justify-content: center;
     align-content: center;
+    border-radius: 20px;
     box-shadow: 0 10px 20px rgba(0,0,0,0.23), 0 6px 6px rgba(0,0,0,0.28);
 }
 
@@ -17,8 +18,9 @@
 }
 
 label, p {
-    font-size: larger;
+    font-size: x-large;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: var(--quartertiary-color);
 }
 
 input, select, textarea {
@@ -28,11 +30,13 @@ input, select, textarea {
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
+    border-radius: 10px;
 }
 
 textarea {
     min-height: 150px;
     min-width: 300px;
+    border-radius: 10px;
 }
 
 ::placeholder {
@@ -49,7 +53,7 @@ button {
     font-size: large;
     line-height: 40px;
     color: white;
-    background-color: var(--primary-color);
-    border-radius: 8px;
+    background-color: var(--tertiary-color);
+    border-radius: 20px;
     border-style: none;
 }
