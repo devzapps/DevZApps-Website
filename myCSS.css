@@ -27,7 +27,7 @@ a {
     text-decoration: none;
 }
 
-a:hover {
+.nav-a :hover {
     background-color: var(--secondary-color);
     color: #fff;
 }
