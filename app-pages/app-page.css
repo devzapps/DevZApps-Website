@@ -25,12 +25,6 @@
     box-shadow: 0 10px 20px rgba(0,0,0,0.23), 0 6px 6px rgba(0,0,0,0.28);
 }
 
-a {
-    grid-area: link;
-    margin: auto;
-    padding: 20px;
-}
-
 .desc-text {
     grid-area: desc;
     padding-right: 10%;
@@ -39,5 +33,8 @@ a {
 
 article {
     padding-left: 15%;
+    padding-right: 15%;
+    line-height: 1.5rem;
+    font-size: large;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
