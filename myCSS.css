@@ -27,8 +27,8 @@ a {
 }
 
 a:hover {
-    color: var(--secondary-color);
-    text-decoration: underline;
+    background-color: var(--secondary-color);
+    color: #fff;
 }
 
 .site_header {
@@ -38,7 +38,7 @@ a:hover {
 }
 
 .first-header {
-    text-align: center;
+    text-align: center; 
 }
 
 .main-header {
