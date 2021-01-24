@@ -1,40 +1,45 @@
 :root {
-    --primary-color: #272343;
-    --secondary-color: #bae8e8;
-    --tertiary-color: #e3f6f5;
+    --primary-color: #4f98ca;
+    --secondary-color: #50d890;
+    --tertiary-color: #272727;
+    --quartertiary-color: #effffb;
 }
 
 h1 {
-    color: var(--primary-color);
+    color: var(--tertiary-color);
     position: relative;
     top: 0.75em;
 }
 
 h2 {
-    color: var(--primary-color);
+    color: var(--secondary-color);
     position: relative;
     top: 1em;
 }
 
 h3 {
-    color: var(--tertiary-color);
+    color: var(--quartertiary-color);
 }
 
 a {
-    color: var(--primary-color);
+    color: var(--secondary-color);
     font-size: large;
     text-decoration: none;
 }
 
 a:hover {
-    color: var(--secondary-color);
-    text-decoration: underline;
+    background-color: var(--secondary-color);
+    color: #fff;
 }
 
 .site_header {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: medium;
-    background-color: var(--secondary-color);
+    background-color: var(--primary-color);
+}
+
+.first-header {
+    text-align: center; 
 }
 
 .main-header {
@@ -42,6 +47,8 @@ a:hover {
 }
 
 ul {
+    display: flex;
+    justify-content: space-evenly;
     list-style-type: none;
     margin: 0;
     padding: 0;
