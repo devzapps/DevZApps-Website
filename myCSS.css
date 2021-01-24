@@ -25,11 +25,28 @@ a {
     color: var(--secondary-color);
     font-size: large;
     text-decoration: none;
+    margin: auto;
+    padding: 20px;
 }
 
-a:hover {
+ul :hover {
     background-color: var(--secondary-color);
     color: #fff;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: space-around;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: var(--tertiary-color);
+}
+
+.nav-item {
+    padding: 12px;
 }
 
 .site_header {
@@ -46,26 +63,10 @@ a:hover {
     margin-left: 20px;
 }
 
-ul {
-    display: flex;
-    justify-content: space-evenly;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: var(--tertiary-color);
-}
-
-li {
-    float: left;
-    padding: 12px;
-    text-align: center;
-}
-
 .main {
     margin-left: 20px;
     margin-right: auto;
-    line-height:1.75em
+    line-height: 1.75em
 }
 
 .mainImageDiv {
