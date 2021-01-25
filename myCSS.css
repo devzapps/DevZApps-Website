@@ -87,3 +87,11 @@ footer {
     margin-top: 10px;
     padding: 10px;
 }
+
+footer a {
+    color: #8f8f8f;
+}
+
+footer :hover {
+    text-decoration: underline;
+}
