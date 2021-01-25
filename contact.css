@@ -3,7 +3,7 @@
     max-width: 70%;
     margin: 10px auto 10px auto;
     padding-top: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
     display: flex;
     justify-content: center;
     align-content: center;
@@ -17,7 +17,7 @@
     padding: 0.25rem;
 }
 
-label, p {
+.form-group label, .form-group p {
     font-size: x-large;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: var(--quartertiary-color);
