@@ -21,7 +21,7 @@ h3 {
     color: var(--quartertiary-color);
 }
 
-a {
+nav a {
     color: var(--secondary-color);
     font-size: large;
     text-decoration: none;
@@ -64,8 +64,9 @@ ul :hover {
 }
 
 .main {
-    margin-left: 20px;
-    margin-right: auto;
+    text-align: left;
+    margin-left: 20%;
+    margin-right: 20%;
     line-height: 1.75em
 }
 
