@@ -92,6 +92,8 @@ footer a {
     color: #8f8f8f;
 }
 
-footer :hover {
+footer a:hover {
     text-decoration: underline;
 }
+
+
