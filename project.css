@@ -25,6 +25,7 @@
     grid-area: title;
     text-align: center;
     position: initial;
+    text-decoration: none;
 }
 
 .project-link {
