@@ -29,7 +29,7 @@ a {
     padding: 20px;
 }
 
-ul :hover, ul :active {
+ul :hover {
     background-color: var(--secondary-color);
     color: #fff; 
 }
@@ -82,6 +82,7 @@ ul :hover, ul :active {
 
 footer {
     text-align: center;
+    flex-wrap: wrap;
     color: #8f8f8f;
     margin-top: 10px;
     padding: 10px;
