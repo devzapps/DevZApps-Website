@@ -25,6 +25,13 @@
     box-shadow: 0 10px 20px rgba(0,0,0,0.23), 0 6px 6px rgba(0,0,0,0.28);
 }
 
+.image-desc-header a {
+    grid-area: link;
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+}
+
 .desc-text {
     grid-area: desc;
     padding-right: 10%;
