@@ -1,0 +1,12 @@
+.mainImageDiv {
+    padding: 10px;
+}
+
+.mainImage {
+    display: block;
+    margin: auto;
+    height: 300px;
+    width: 85%;
+    object-fit: cover;
+    border-radius: 10px;
+}
