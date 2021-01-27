@@ -70,17 +70,6 @@ ul :hover {
     line-height: 1.75em
 }
 
-.mainImageDiv {
-    padding: 10px;
-}
-
-.mainImage {
-    display: block;
-    margin: auto;
-    max-width: 90%;
-    height: auto;
-}
-
 footer {
     text-align: center;
     flex-wrap: wrap;

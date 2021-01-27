@@ -56,4 +56,10 @@ button {
     background-color: var(--tertiary-color);
     border-radius: 20px;
     border-style: none;
+    transition: all .5s;
+}
+
+button:hover {
+    transition: .5s;
+    transform: scale(1.2);
 }
