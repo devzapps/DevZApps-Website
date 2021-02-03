@@ -11,6 +11,12 @@
     box-shadow: 0 10px 20px rgba(0,0,0,0.23), 0 6px 6px rgba(0,0,0,0.28);
 }
 
+@media (max-width: 425px) {
+    #contact-form {
+        max-width: 95%;
+    }
+}
+
 .form-group {
     text-align: left;   
     margin: 0 auto 1.25rem auto;
